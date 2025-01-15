@@ -2,8 +2,16 @@ import React from 'react';
 import fs from "fs";
 import { notFound } from 'next/navigation';
 import matter from 'gray-matter';
+import rehypeDocument from "rehype-document";
+import rehypeFormat from "rehype-format";
+import rehypeStringify from "rehype-stringify";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import { unified } from "unified";
+import rehypePrettyCode from 'rehype-pretty-code';
+import { transformerCopyButton } from "@rehype-pretty/transformers";
 
-const BlogPost = ({ params }) => {
+const BlogPost = async ({ params }) => {
 //   const blog = {
 //     title: "Understanding React Hooks",
 //     description:
@@ -23,6 +31,24 @@ const BlogPost = ({ params }) => {
     const fileContent = fs.readFileSync(filePath, "utf-8");
     const {data, content} = matter(fileContent);
 
+    const processor = unified()
+      .use(remarkParse)
+      .use(remarkRehype)
+      .use(rehypeDocument, { title: "👋🌍" })
+      .use(rehypeFormat)
+      .use(rehypeStringify)
+      .use(rehypePrettyCode, {
+        theme: "github-dark",
+        transformers: [
+          transformerCopyButton({
+            visibility: "always",
+            feedbackDuration: 3_000,
+          }),
+        ],
+      });
+  
+  const htmlContent = (await processor.process(content)).toString();
+
   return (
     <div className="max-w-2xl mx-auto p-4">
       <img
@@ -41,8 +67,8 @@ const BlogPost = ({ params }) => {
         <span>{data.date}</span>
       </div>
       <div
-        className="prose dark:prose-dark mt-4"
-        dangerouslySetInnerHTML={{ __html: content }}
+        dangerouslySetInnerHTML={{ __html: htmlContent }}
+        className="prose dark:prose-invert mt-4"
       ></div>
     </div>
   );
