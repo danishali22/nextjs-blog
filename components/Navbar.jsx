@@ -38,7 +38,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/about"
+              href="/blog"
               className="hover:scale-105 hover:font-semibold transition-transform duration-300"
             >
               Blog

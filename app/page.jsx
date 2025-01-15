@@ -191,63 +191,105 @@ export default function Home() {
         </div>
       </section>
       <section className="py-10 bg-gray-100 dark:bg-gray-800">
-  <h1 className="text-3xl font-bold text-center mb-8">Top Blogs</h1>
-  <div className="flex flex-wrap justify-center gap-10">
-    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
-      <img src="path/to/image1.jpg" alt="Blog 1" className="mb-4 rounded" />
-      <h2 className="text-xl font-bold mb-2">Blog Title 1</h2>
-      <p className="text-gray-700 dark:text-gray-300 mb-4">
-        A brief description of the blog post that highlights its main points and attracts readers.
-      </p>
-      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
-    </div>
+        <h1 className="text-3xl font-bold text-center mb-8">Top Blogs</h1>
+        <div className="flex flex-wrap justify-center gap-10">
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+            <img
+              src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg"
+              alt="Blog 3"
+              className="w-full h-64 object-cover rounded-t-lg"
+            />
+            <h2 className="text-xl font-bold my-3">Blog Title 1</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              A brief description of the blog post that highlights its main
+              points and attracts readers.
+            </p>
+            <Button className="m-2" variant="outline" href="/blog-post-3">
+              Read More
+            </Button>
+          </div>
 
-    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
-      <img src="path/to/image2.jpg" alt="Blog 2" className="mb-4 rounded" />
-      <h2 className="text-xl font-bold mb-2">Blog Title 2</h2>
-      <p className="text-gray-700 dark:text-gray-300 mb-4">
-        A brief description of the blog post that highlights its main points and attracts readers.
-      </p>
-      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
-    </div>
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+            <img
+              src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg"
+              alt="Blog 3"
+              className="w-full h-64 object-cover rounded-t-lg"
+            />
+            <h2 className="text-xl font-bold my-3">Blog Title 2</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              A brief description of the blog post that highlights its main
+              points and attracts readers.
+            </p>
+            <Button className="m-2" variant="outline" href="/blog-post-3">
+              Read More
+            </Button>
+          </div>
 
-    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
-      <img src="path/to/image3.jpg" alt="Blog 3" className="mb-4 rounded" />
-      <h2 className="text-xl font-bold mb-2">Blog Title 3</h2>
-      <p className="text-gray-700 dark:text-gray-300 mb-4">
-        A brief description of the blog post that highlights its main points and attracts readers.
-      </p>
-      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
-    </div>
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+            <img
+              src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg"
+              alt="Blog 3"
+              className="w-full h-64 object-cover rounded-t-lg"
+            />
+            <h2 className="text-xl font-bold my-3">Blog Title 3</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              A brief description of the blog post that highlights its main
+              points and attracts readers.
+            </p>
+            <Button className="m-2" variant="outline" href="/blog-post-3">
+              Read More
+            </Button>
+          </div>
 
-    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
-      <img src="path/to/image4.jpg" alt="Blog 4" className="mb-4 rounded" />
-      <h2 className="text-xl font-bold mb-2">Blog Title 4</h2>
-      <p className="text-gray-700 dark:text-gray-300 mb-4">
-        A brief description of the blog post that highlights its main points and attracts readers.
-      </p>
-      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
-    </div>
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+            <img
+              src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg"
+              alt="Blog 3"
+              className="w-full h-64 object-cover rounded-t-lg"
+            />
+            <h2 className="text-xl font-bold my-3">Blog Title 4</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              A brief description of the blog post that highlights its main
+              points and attracts readers.
+            </p>
+            <Button className="m-2" variant="outline" href="/blog-post-3">
+              Read More
+            </Button>
+          </div>
 
-    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
-      <img src="path/to/image5.jpg" alt="Blog 5" className="mb-4 rounded" />
-      <h2 className="text-xl font-bold mb-2">Blog Title 5</h2>
-      <p className="text-gray-700 dark:text-gray-300 mb-4">
-        A brief description of the blog post that highlights its main points and attracts readers.
-      </p>
-      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
-    </div>
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+            <img
+              src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg"
+              alt="Blog 3"
+              className="w-full h-64 object-cover rounded-t-lg"
+            />
+            <h2 className="text-xl font-bold my-3">Blog Title 5</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              A brief description of the blog post that highlights its main
+              points and attracts readers.
+            </p>
+            <Button className="m-2" variant="outline" href="/blog-post-3">
+              Read More
+            </Button>
+          </div>
 
-    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
-      <img src="path/to/image6.jpg" alt="Blog 6" className="mb-4 rounded" />
-      <h2 className="text-xl font-bold mb-2">Blog Title 6</h2>
-      <p className="text-gray-700 dark:text-gray-300 mb-4">
-        A brief description of the blog post that highlights its main points and attracts readers.
-      </p>
-      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
-    </div>
-  </div>
-</section>
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+            <img
+              src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg"
+              alt="Blog 3"
+              className="w-full h-64 object-cover rounded-t-lg"
+            />
+            <h2 className="text-xl font-bold my-3">Blog Title 6</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              A brief description of the blog post that highlights its main
+              points and attracts readers.
+            </p>
+            <Button className="m-2" variant="outline" href="/blog-post-3">
+              Read More
+            </Button>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
