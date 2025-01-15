@@ -14,36 +14,61 @@ import { ModeToggle } from "./theme-btn";
 
 const Navbar = () => {
   return (
-    <nav className="mx-auto flex justify-between items-center p-4 border-b bg-background/50 sticky top-0 backdrop-blur">
+    <nav className="mx-auto flex justify-between items-center p-4 border-b bg-background/50 sticky top-0 backdrop-blur z-10">
       <Link href={"/"}>
         <div className="container text-xl font-bold pb-4">DanishBlog</div>
       </Link>
       <div className="hidden md:flex space-x-4 items-center">
         <ul className="flex space-x-4">
           <li>
-            <Link href="/">Home</Link>
+            <Link
+              href="/"
+              className="hover:scale-105 hover:font-semibold transition-transform duration-300"
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link
+              href="/about"
+              className="hover:scale-105 hover:font-semibold transition-transform duration-300"
+            >
+              About
+            </Link>
           </li>
           <li>
-            <Link href="/about">Blog</Link>
+            <Link
+              href="/about"
+              className="hover:scale-105 hover:font-semibold transition-transform duration-300"
+            >
+              Blog
+            </Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link
+              href="/contact"
+              className="hover:scale-105 hover:font-semibold transition-transform duration-300"
+            >
+              Contact
+            </Link>
           </li>
         </ul>
-        <div>
+        <div className="flex items-center">
           <Button className="mx-1" variant="outline">
             Login
           </Button>
           <Button className="mx-1" variant="outline">
             Signup
           </Button>
-          <ModeToggle />
+          <div className="mx-2">
+            <ModeToggle />
+          </div>
         </div>
       </div>
       <div className="md:hidden">
+        <span className="mx-3">
+          <ModeToggle />
+        </span>
         <Sheet>
           <SheetTrigger>
             <svg

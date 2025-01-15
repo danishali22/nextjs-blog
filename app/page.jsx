@@ -1,8 +1,253 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <main>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem inventore nisi quisquam dignissimos. Facilis ipsam qui nulla inventore error esse? Quos nemo beatae, recusandae molestias, ut, blanditiis accusantium quas deleniti obcaecati sapiente maxime? Dolores possimus optio natus. Ipsum eius quidem iste impedit maxime perspiciatis, perferendis id animi optio sequi eaque ipsa distinctio odio in atque! Commodi molestias et sapiente impedit atque! Quo inventore architecto, provident nisi blanditiis quia iure. Odit possimus neque tempora soluta quod odio reprehenderit illo? Sapiente tenetur, animi aliquid quae praesentium perspiciatis soluta labore eaque. Nihil officiis quam cumque voluptatem eius, deleniti ipsa sunt quae iste a consectetur excepturi? Id, ipsa autem totam laboriosam nesciunt, illum beatae amet, incidunt blanditiis nulla tempore recusandae quod consectetur inventore libero vel molestiae possimus at eius magnam dicta. Necessitatibus eligendi aut a tempore libero est odit velit enim ipsam repellat aliquid, quaerat sed voluptatibus eos mollitia incidunt? Eos harum incidunt quis magni vero iure at dolorum illum, maiores laudantium deserunt eveniet esse soluta error sint assumenda aut fugiat aliquid sed quas placeat quia commodi. Ullam, unde. Distinctio, quaerat exercitationem laudantium reiciendis quis harum adipisci molestiae architecto quas ut vero deserunt qui esse, delectus laborum doloribus facilis non! Deleniti officia ratione quisquam ipsum? Quasi perferendis fugiat maxime tenetur, commodi beatae cumque dolore, consequatur nemo asperiores tempora totam dolorem perspiciatis voluptas ipsum eum eius ut, reiciendis laboriosam! Tempore ipsum eveniet quae eligendi cupiditate maiores esse accusamus labore quisquam maxime id, sed rem natus rerum, culpa fugiat. Totam aperiam dolorem quidem iste, voluptates quisquam vitae repudiandae illum, aut velit numquam suscipit tempore inventore hic harum voluptas. Culpa ipsam voluptatem facere cum aliquid distinctio fugit ea minima minus vitae quia ullam dignissimos, officiis delectus, omnis repellendus laudantium esse est itaque! Perferendis sequi quisquam, fuga earum culpa suscipit aspernatur vel necessitatibus soluta itaque dolorem accusantium voluptatem laborum odit excepturi doloribus optio minima quasi porro omnis aliquam eligendi explicabo iure! Rem dolore dolores optio, sapiente consectetur atque quod aspernatur, dignissimos, cumque ipsum minima? Voluptate inventore veritatis ut nihil enim autem atque, doloribus nesciunt dolores quidem provident ipsum fuga aperiam impedit! Commodi soluta iure quasi esse odit animi perferendis at voluptates, harum molestias tenetur aspernatur, ipsa adipisci ea consequatur! Placeat, reiciendis. Rerum, quam non. Ipsa soluta assumenda nam culpa delectus eveniet sapiente amet, veniam doloremque odio laborum iure accusantium vitae neque provident, vel magni earum consectetur. Nam, quaerat! Praesentium pariatur temporibus, doloremque illo rerum laborum quaerat consequatur consequuntur, incidunt non rem molestias quibusdam! Eligendi minus rerum nihil enim nesciunt cumque, nemo vel. Laboriosam quisquam expedita numquam reiciendis quas error ex accusamus, asperiores quidem commodi porro nesciunt eos delectus accusantium explicabo a officiis incidunt quae, ad unde! Laborum, sapiente, ipsa laudantium dolore, eius commodi officiis incidunt quis quae similique molestias. Nostrum recusandae ullam sapiente ea, rerum dolor facere eveniet mollitia molestiae atque, corporis temporibus sint quos repellendus quibusdam id aspernatur voluptates nihil nam laborum? Quaerat expedita minus nostrum, corporis laudantium sed sit assumenda quis voluptatum, quidem perferendis animi inventore aliquam earum quam, iste rerum modi. Maxime optio architecto necessitatibus.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ad nisi eligendi deleniti ullam voluptates vero provident velit fugit quia quisquam autem, sunt fugiat fuga perferendis officiis. Obcaecati ducimus eius nisi maiores, porro a neque molestiae pariatur cupiditate at quisquam perspiciatis eveniet voluptatibus tenetur! Quibusdam quo dolore velit eum laborum odit doloribus natus, asperiores praesentium, voluptate placeat blanditiis? Molestias commodi cum molestiae laborum exercitationem voluptates provident quam esse dolorem est, amet quo nesciunt quos aut repellendus beatae dolores libero a laudantium ipsam nobis. Accusantium iure laboriosam earum in magni officiis amet repudiandae adipisci neque vero, obcaecati voluptates omnis corporis quam ex assumenda, minus laborum dolor? Suscipit assumenda, debitis voluptate ipsa est veniam nisi earum, dignissimos eius adipisci aliquam mollitia ducimus, distinctio architecto. Eligendi dicta porro omnis? Magnam quibusdam, consequatur id aliquid corrupti ipsa delectus consequuntur aliquam? Necessitatibus error quasi qui voluptas aliquid exercitationem, veritatis cum nam eius magnam magni numquam possimus perspiciatis laborum aliquam asperiores aspernatur inventore animi unde molestiae, voluptatem ea suscipit tenetur vel! Odio, ut expedita, velit ex possimus quo culpa autem quis cum quos at voluptatem mollitia sequi eligendi iure accusantium maiores sit doloremque quia non fugit debitis architecto. Eligendi libero ipsam vitae sequi ullam ex, in ab inventore possimus dolore. Quis, ratione voluptas doloremque provident alias eaque atque mollitia sunt asperiores reiciendis quia. Impedit quas iure, deleniti inventore quisquam id, magni cum eligendi omnis cumque unde eius sunt tenetur earum ratione deserunt voluptatum exercitationem voluptates officiis expedita. Praesentium laboriosam aspernatur repellendus dolorem atque, culpa, qui consequuntur harum ab vitae architecto illo ullam quibusdam consectetur a asperiores nisi ad et deleniti odit obcaecati quisquam neque nesciunt. Eum, ducimus quod quisquam sunt natus vel amet tempore tempora recusandae architecto quaerat consequuntur? Temporibus, ut quis. Alias, debitis asperiores explicabo reiciendis illum perspiciatis quo quas amet doloremque eius beatae dolore magnam. Suscipit, labore rem nulla amet dolorum quasi eius, velit quod aliquid consequatur aperiam? Porro enim possimus ea atque tempore nihil. Sint voluptate eos voluptas ducimus qui rem, id doloribus architecto suscipit doloremque mollitia voluptatibus? Doloribus nemo nisi minus suscipit laboriosam, est aperiam libero pariatur! Eaque unde voluptas deserunt praesentium ad tenetur similique nihil minima sapiente ratione esse quia ea deleniti, perspiciatis laboriosam culpa ex expedita a cupiditate, adipisci hic? Sapiente quo vitae dolorum quisquam iure eaque minima deserunt odio quia ratione eveniet sunt est aspernatur commodi, eius, assumenda aperiam inventore! Iure, in modi, dolorem ut, ab illo sapiente illum distinctio repudiandae amet delectus animi sunt eligendi maiores quod quos. Dicta nisi sequi perferendis nostrum obcaecati, expedita vitae eaque, a cumque labore illo natus quam ipsam inventore, accusantium explicabo fuga facilis. Alias velit quas dolorum, voluptatum consectetur similique voluptatibus? Officiis quisquam architecto eligendi, sequi sed ipsum sapiente rerum ut aperiam illum vel veniam quia dignissimos, quis iure. Dolorem neque beatae enim deserunt tempora tempore recusandae? Officia, itaque incidunt quod sit nostrum asperiores, et nam libero sint tenetur aliquam expedita modi quam repellendus perferendis in enim qui! Asperiores ipsam mollitia enim magnam? Corrupti voluptatibus accusamus consequuntur iure eius, ea beatae impedit perspiciatis amet similique, veniam aliquid esse. Commodi ratione qui unde soluta optio itaque dolore odit nostrum aspernatur? Iusto nesciunt delectus ducimus veniam. Fugit natus voluptatem similique, rerum veritatis dolores exercitationem assumenda dolor. Et modi voluptatum deserunt, quod nostrum sint repellendus expedita rem eum voluptate tempore voluptatibus distinctio esse ad vero nam corporis ratione voluptas dolor nesciunt facere harum possimus? Assumenda tempora, earum natus libero eum delectus numquam mollitia voluptatem rem quis adipisci doloremque asperiores soluta consectetur, ullam quia id deserunt? Obcaecati adipisci doloribus cupiditate architecto ipsa molestias alias officiis omnis aut porro distinctio saepe recusandae, ea aperiam dolorem id tenetur. Asperiores, aspernatur fugiat! Nam saepe, aspernatur cum voluptatem dolorum necessitatibus facere ducimus sed non veritatis. Iusto, nam numquam sunt est natus, obcaecati a enim cupiditate, tempore deserunt molestiae deleniti quod voluptatibus harum consequatur fugiat necessitatibus. Unde commodi, numquam fugit, molestiae saepe facilis, est nostrum dolores omnis soluta vero quos cupiditate! Vel, impedit et? Fugit ullam ducimus quam, sunt officiis quibusdam nisi minus? Est, eum dignissimos minus quia quos commodi illo! Qui eos commodi numquam expedita molestiae nihil in vitae perferendis. Saepe explicabo voluptatum accusantium optio unde accusamus dolore vitae, debitis fuga eligendi voluptatibus veritatis necessitatibus quia dignissimos corporis. Quia, corrupti quibusdam quas, quam cupiditate ipsum cum at perspiciatis accusantium consectetur beatae optio placeat eius. Reprehenderit ab at ipsam ducimus, ad asperiores quidem rerum natus, et expedita aliquam distinctio doloremque ex aspernatur quae fuga voluptatibus quos. Consequuntur, laborum hic eius et, ipsum ipsa amet explicabo ex tempora architecto sunt, accusamus minus non in quaerat perspiciatis. Necessitatibus doloribus deserunt, odit illo recusandae voluptatem quo ipsum facilis eum asperiores quam, ullam optio quae modi numquam quas aperiam. Accusamus deserunt corporis, eveniet quidem iure recusandae cum consectetur neque nihil! Non eaque quaerat aperiam, ipsam a nostrum laboriosam, libero maxime illo in consectetur soluta excepturi voluptatum harum qui sequi aliquid cum tenetur id cumque animi temporibus fugit alias officia? Aliquam, voluptatibus quisquam deleniti, rem dicta, magni ipsum in autem fuga accusantium iure ducimus. Consectetur nam ipsa est adipisci fuga illum nisi minus eaque iure! Optio aliquid pariatur, veniam non quisquam, repudiandae dolorum voluptatem possimus quo quae aut numquam voluptatum. Sapiente eius recusandae deleniti similique debitis voluptates. Fugit, cumque quia commodi iure dolore alias nemo? Nesciunt facere qui impedit incidunt non eum molestiae, consequatur repellendus fugiat quo quibusdam, dolor eaque quaerat, commodi illo error? Esse tenetur dignissimos laudantium totam velit perferendis. Alias sequi laborum veritatis quod tenetur facere exercitationem fugit totam, consequuntur asperiores non saepe accusantium deleniti dolorum fugiat veniam quibusdam officia libero at commodi inventore obcaecati perferendis distinctio? Dignissimos quam inventore vitae, quibusdam minus, eum unde corporis corrupti dolorem, repellat nobis? Ipsam, exercitationem cupiditate deleniti magnam nam in! Quam totam non impedit dolorum. Error beatae reiciendis consequatur corporis! Architecto, soluta amet quisquam id assumenda perferendis. Culpa, incidunt exercitationem! Eaque accusantium impedit tempora aperiam incidunt eos doloribus facere nihil alias, omnis temporibus error. Accusamus odio nesciunt nam? Asperiores repudiandae, odio hic blanditiis ex similique enim facilis cupiditate quae aperiam perspiciatis facere, aliquam tempore quaerat, incidunt fugiat.
+      <section className="container px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
+        <div className="w-full text-center lg:text-left lg:w-1/2 lg:-mt-8">
+          <h1 className="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
+            A <span className="font-semibold">free repository</span> for
+            community <br className="hidden lg:block" /> components using{" "}
+            <span className="font-semibold underline decoration-primary">
+              Tailwind CSS
+            </span>
+          </h1>
+          <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
+            Open source Tailwind UI components and templates to{" "}
+            <br className="hidden lg:block" /> bootstrap your new apps, projects
+            or landing sites!
+          </p>
+          <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20">
+            <form
+              action="https://www.creative-tim.com/twcomponents/search"
+              className="flex flex-wrap justify-between md:flex-row"
+            >
+              <input
+                type="search"
+                name="query"
+                placeholder="Search Components"
+                required
+                className="flex-1 h-10 px-4 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none lg:h-12 dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
+              />
+              <button
+                type="submit"
+                className="flex items-center justify-center w-full p-2 m-1 text-white dark: text-black transition-colors duration-300 transform rounded-lg lg:w-12 lg:h-12 lg:p-0 bg-primary hover:bg-primary/70 focus:outline-none focus:bg-primary/70"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
+          <img
+            src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg"
+            alt="tailwind css components"
+            className="w-full h-full max-w-md mx-auto"
+          />
+        </div>
+      </section>
+
+      <section className="py-10 bg-gray-100 dark:bg-gray-800">
+        <div className="container px-4 mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-center mb-2">
+              Pricing Plans
+            </h2>
+            <p className=" text-gray-600 text-lg dark:text-gray-400">
+              Choose the plan that suits you best
+            </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-2">
+            <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-md w-full mx-4 sm:mb-5">
+              <h2 className="text-2xl font-bold mb-2">Basic Plan</h2>
+              <p className="text-xl text-gray-700 dark:text-gray-300 mb-4">
+                $10/month
+              </p>
+              <ul className="mt-4 space-y-2">
+                <li className="text-gray-600 dark:text-gray-400">
+                  <s>10GB Storage</s>
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  <s>Basic Support</s>
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  <s>Single User</s>
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Community Access
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Weekly Updates
+                </li>
+              </ul>
+              <Button className="mx-1 mt-2" variant="outline">
+                Choose Plan
+              </Button>
+            </div>
+
+            <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-md w-full mx-4 border-4 border-yellow-500 dark:border-purple-500 relative sm:mb-5">
+              <span className="absolute top-2 right-2 bg-yellow-400 dark:bg-purple-400  text-black text-xs font-bold px-2 py-1 rounded-full">
+                Best Seller
+              </span>
+              <h2 className="text-2xl font-bold mb-2">Standard Plan</h2>
+              <p className="text-xl text-gray-700 dark:text-gray-300 mb-4">
+                $20/month
+              </p>
+              <ul className="mt-4 space-y-2">
+                <li className="text-gray-600 dark:text-gray-400">
+                  50GB Storage
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Priority Support
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Up to 5 Users
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Community Access
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Daily Updates
+                </li>
+              </ul>
+              <Button className="mx-1 mt-2" variant="outline">
+                Choose Plan
+              </Button>
+            </div>
+
+            <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-md w-full mx-4 sm:mb-5">
+              <h2 className="text-2xl font-bold mb-2">Premium Plan</h2>
+              <p className="text-xl text-gray-700 dark:text-gray-300 mb-4">
+                $30/month
+              </p>
+              <ul className="mt-4 space-y-2">
+                <li className="text-gray-600 dark:text-gray-400">
+                  200GB Storage
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  24/7 Support
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Unlimited Users
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Community Access
+                </li>
+                <li className="text-gray-600 dark:text-gray-400">
+                  Real-time Updates
+                </li>
+              </ul>
+              <Button className="mx-1 mt-2" variant="outline">
+                Choose Plan
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10 bg-gray-100 dark:bg-gray-800">
+        <h1 className="text-3xl font-bold text-center mb-8">
+          What Our Clients Say
+        </h1>
+        <div className="flex flex-wrap justify-center">
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-xs w-full mx-4">
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              "This service has changed my life! Highly recommend to everyone."
+            </p>
+            <h3 className="text-xl font-bold">John Doe</h3>
+            <p className="text-gray-500">CEO, Company A</p>
+          </div>
+
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-xs w-full mx-4">
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              "Amazing experience! The team was very professional and
+              attentive."
+            </p>
+            <h3 className="text-xl font-bold">Jane Smith</h3>
+            <p className="text-gray-500">Marketing Director, Company B</p>
+          </div>
+
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-xs w-full mx-4">
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              "I couldn't be happier with the results! Truly a game changer."
+            </p>
+            <h3 className="text-xl font-bold">Alice Johnson</h3>
+            <p className="text-gray-500">Founder, Company C</p>
+          </div>
+        </div>
+      </section>
+      <section className="py-10 bg-gray-100 dark:bg-gray-800">
+  <h1 className="text-3xl font-bold text-center mb-8">Top Blogs</h1>
+  <div className="flex flex-wrap justify-center gap-10">
+    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+      <img src="path/to/image1.jpg" alt="Blog 1" className="mb-4 rounded" />
+      <h2 className="text-xl font-bold mb-2">Blog Title 1</h2>
+      <p className="text-gray-700 dark:text-gray-300 mb-4">
+        A brief description of the blog post that highlights its main points and attracts readers.
+      </p>
+      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+    </div>
+
+    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+      <img src="path/to/image2.jpg" alt="Blog 2" className="mb-4 rounded" />
+      <h2 className="text-xl font-bold mb-2">Blog Title 2</h2>
+      <p className="text-gray-700 dark:text-gray-300 mb-4">
+        A brief description of the blog post that highlights its main points and attracts readers.
+      </p>
+      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+    </div>
+
+    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+      <img src="path/to/image3.jpg" alt="Blog 3" className="mb-4 rounded" />
+      <h2 className="text-xl font-bold mb-2">Blog Title 3</h2>
+      <p className="text-gray-700 dark:text-gray-300 mb-4">
+        A brief description of the blog post that highlights its main points and attracts readers.
+      </p>
+      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+    </div>
+
+    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+      <img src="path/to/image4.jpg" alt="Blog 4" className="mb-4 rounded" />
+      <h2 className="text-xl font-bold mb-2">Blog Title 4</h2>
+      <p className="text-gray-700 dark:text-gray-300 mb-4">
+        A brief description of the blog post that highlights its main points and attracts readers.
+      </p>
+      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+    </div>
+
+    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+      <img src="path/to/image5.jpg" alt="Blog 5" className="mb-4 rounded" />
+      <h2 className="text-xl font-bold mb-2">Blog Title 5</h2>
+      <p className="text-gray-700 dark:text-gray-300 mb-4">
+        A brief description of the blog post that highlights its main points and attracts readers.
+      </p>
+      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+    </div>
+
+    <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out max-w-lg w-full mx-4">
+      <img src="path/to/image6.jpg" alt="Blog 6" className="mb-4 rounded" />
+      <h2 className="text-xl font-bold mb-2">Blog Title 6</h2>
+      <p className="text-gray-700 dark:text-gray-300 mb-4">
+        A brief description of the blog post that highlights its main points and attracts readers.
+      </p>
+      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
