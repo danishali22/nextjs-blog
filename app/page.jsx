@@ -1,6 +1,23 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
 
 export default function Home() {
+
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Web Development", "Machine Learning", "Data Science", "Cloud Computing", "Cybersecurity"],
+      typeSpeed: 50,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
   return (
     <main>
       <section className="container px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
@@ -9,7 +26,7 @@ export default function Home() {
             A <span className="font-semibold">free repository</span> for
             community <br className="hidden lg:block" /> components using{" "}
             <span className="font-semibold underline decoration-primary">
-              Tailwind CSS
+              <span ref={el} />
             </span>
           </h1>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
@@ -31,7 +48,7 @@ export default function Home() {
               />
               <button
                 type="submit"
-                className="flex items-center justify-center w-full p-2 m-1 text-white dark: text-black transition-colors duration-300 transform rounded-lg lg:w-12 lg:h-12 lg:p-0 bg-primary hover:bg-primary/70 focus:outline-none focus:bg-primary/70"
+                className="flex items-center justify-center w-full p-2 m-1 text-white dark:text-black transition-colors duration-300 transform rounded-lg lg:w-12 lg:h-12 lg:p-0 bg-primary hover:bg-primary/70 focus:outline-none focus:bg-primary/70"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

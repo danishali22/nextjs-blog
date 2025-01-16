@@ -1,5 +1,6 @@
-// pages/index.jsx
-import React from "react";
+"use client"
+
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
@@ -11,10 +12,40 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { ModeToggle } from "./theme-btn";
+import {usePathname} from "next/navigation";
+import LoadingBar from "react-top-loading-bar";
+
 
 const Navbar = () => {
+  const [progress, setProgress] = useState("");
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setProgress(20);
+
+    setTimeout(() => {
+      setProgress(40);
+    }, 100);
+
+    setTimeout(() => {
+      setProgress(100);
+    }, 400);
+    
+  }, [pathname]);
+
+  useEffect(() => {
+    setTimeout(() => {
+    setProgress(0);
+    }, 500);
+  }, []);
+
   return (
     <nav className="mx-auto flex justify-between items-center p-4 border-b bg-background/50 sticky top-0 backdrop-blur z-10">
+      <LoadingBar
+        color="#933ce6"
+        progress={progress}
+        onLoaderFinished={() => setProgress(0)}
+      />
       <Link href={"/"}>
         <div className="container text-xl font-bold pb-4">DanishBlog</div>
       </Link>

@@ -38,7 +38,7 @@ Next.js is a React framework that enables server-side rendering and static site 
 
 To begin, make sure you have Node.js installed. Then, create a new Next.js project using Yarn:
 
-```bash
+```bash showLineNumbers
 # Create a new Next.js application
 yarn create next-app my-nextjs-app
 
@@ -57,7 +57,7 @@ Next.js uses a file-based routing system. Create pages by adding files in the `p
 
 ### Example: Adding a New Page
 
-```javascript
+```javascript showLineNumbers {4-7}
 // pages/about.js
 export default function About() {
   return (
@@ -77,7 +77,7 @@ Next.js allows you to create backend APIs within the `pages/api` directory.
 
 ### Example: Creating an API Route
 
-```javascript
+```javascript showLineNumbers
 // pages/api/hello.js
 export default function handler(req, res) {
   res.status(200).json({ message: 'Hello, World!' });
@@ -92,7 +92,7 @@ SSR allows you to render pages on the server before sending them to the client.
 
 ### Example: Using `getServerSideProps`
 
-```javascript
+```javascript showLineNumbers
 // pages/ssr.js
 export async function getServerSideProps() {
   const data = await fetch('https://api.example.com/data').then(res => res.json());
@@ -120,7 +120,7 @@ SSG generates static HTML pages at build time.
 
 ### Example: Using `getStaticProps`
 
-```javascript
+```javascript showLineNumbers
 // pages/ssg.js
 export async function getStaticProps() {
   const data = await fetch('https://api.example.com/data').then(res => res.json());
@@ -148,7 +148,7 @@ Dynamic routes allow you to create pages with dynamic paths.
 
 ### Example: Creating a Dynamic Route
 
-```javascript
+```javascript showLineNumbers
 // pages/post/[id].js
 export async function getStaticPaths() {
   const posts = await fetch('https://api.example.com/posts').then(res => res.json());
