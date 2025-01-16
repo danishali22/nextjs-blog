@@ -100,6 +100,11 @@ code[data-line-numbers-max-digits="4"]>[data-line]::before {
   width: 2.25rem;
 }
 
+/* My own  */
 span[data-highlighted-line] {
   background-color: #80808036;
+}
+
+mark[data-highlighted-chars] {
+  background-color: #808080a8;
 }

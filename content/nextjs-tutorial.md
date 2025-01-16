@@ -57,7 +57,7 @@ Next.js uses a file-based routing system. Create pages by adding files in the `p
 
 ### Example: Adding a New Page
 
-```javascript showLineNumbers {4-7}
+```javascript showLineNumbers {4-7} /export/
 // pages/about.js
 export default function About() {
   return (

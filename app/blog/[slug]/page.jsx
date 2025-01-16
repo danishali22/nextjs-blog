@@ -10,6 +10,9 @@ import remarkRehype from "remark-rehype";
 import { unified } from "unified";
 import rehypePrettyCode from 'rehype-pretty-code';
 import { transformerCopyButton } from "@rehype-pretty/transformers";
+import OnThisPage from '@/components/onThisPage';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSlug from 'rehype-slug';
 
 const BlogPost = async ({ params }) => {
 //   const blog = {
@@ -37,6 +40,8 @@ const BlogPost = async ({ params }) => {
       .use(rehypeDocument, { title: "👋🌍" })
       .use(rehypeFormat)
       .use(rehypeStringify)
+      .use(rehypeAutolinkHeadings)
+      .use(rehypeSlug)
       .use(rehypePrettyCode, {
         theme: "github-dark",
         transformers: [
@@ -50,9 +55,9 @@ const BlogPost = async ({ params }) => {
   const htmlContent = (await processor.process(content)).toString();
 
   return (
-    <div className="max-w-2xl mx-auto p-4">
+    <div className="max-w-4xl ml-80 p-4">
       <img
-        className="w-full h-72 object-cover mb-4"
+        className="w-full h-80 object-cover mb-4"
         src={data.image}
         alt={data.title}
       />
@@ -70,6 +75,7 @@ const BlogPost = async ({ params }) => {
         dangerouslySetInnerHTML={{ __html: htmlContent }}
         className="prose dark:prose-invert mt-4"
       ></div>
+      <OnThisPage htmlContent={htmlContent} />
     </div>
   );
 };
